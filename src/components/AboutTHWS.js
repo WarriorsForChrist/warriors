@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 
-import title from '../images/titleTaoHsiehWuShu.jpg'
-import kanji from '../images/kanji.jpg'
 import logo from '../images/thwslogo.jpg'
 
 import '../styles/AboutTHWS.css'
