@@ -13,15 +13,7 @@ export default class RelatedLinks extends Component {
                 <h3>Check out these other great organizations:</h3>
                 <div id="links">
                     <ul>
-                        <li><ExternalLink href="http://www.brooks.org/" desc="Brooks Ave Church of Christ" /></li>
-                        <li><ExternalLink href="http://gwinnettcc.org/" desc="Gwinnett Church of Christ" /></li>
                         <li><ExternalLink href="http://www.ifcma.org" desc="Internation Fellowship of Christian Martial Artists" /></li>
-                        <li><ExternalLink href="http://smithdouglas.com/" desc="Smith Douglas Homes" /></li>
-                        <li><ExternalLink href="https://soltech.net/" desc="SOLTECH" /></li>
-                        <li><ExternalLink href="http://www.sbcatl.com" desc="SBComm" /></li>
-                        <li><ExternalLink href="https://tysteeleband.com/" desc="Ty Steele Band" /></li>
-                        <li><ExternalLink href="https://www.bigpeachrunningco.com/" desc="Big Peach Running Stores" /></li>
-                        <li><ExternalLink href="http://www.atnipphotography.com/" desc="Atnip Photography" /></li>
                     </ul>
                 </div>
             </div>
