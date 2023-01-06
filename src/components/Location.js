@@ -6,7 +6,26 @@ import '../App.css'
 
 export default class Location extends Component {
     render() {
-        const calendar = this.props.calendarLink === '' ? <div>&nbsp;</div> : <a target="none" href={this.props.calendarLink}>Events Calendar</a>;
+        const getAddress2 = () => {
+            if (this.props.address2 && this.props.address2 !== '') {
+                return (
+                    <span>
+                        {this.props.address2}<br/>
+                    </span>
+                )
+            }
+        }
+
+        const getClassListings = () => {
+            if (this.props.class1 && this.props.class1 !== '') {
+                return (
+                    <div className="locationDues" style={{marginLeft: 15}}>
+                        {this.props.class1}<br/>
+                        {this.props.class2}
+                    </div>
+                )
+            }
+        }
 
         return (
 
@@ -22,21 +41,18 @@ export default class Location extends Component {
                         <h4>{this.props.locationName}</h4>
                         <h5>
                             {this.props.address1}<br/>
+                            {getAddress2()}
                             {this.props.cityStateZip}
                         </h5>
                     </a>
                 </div>
                 <h4>{this.props.classTimes}</h4>
-                <div>
-                    {calendar}
-                </div>
+                {getClassListings()}
                 <div className="locationDues">
                     <b>Dues</b>
                     <ul>
                         <li>{this.props.registrationStatus}</li>
-                        <li>{this.props.registrationPrice}</li>
                         <li>{this.props.registrationMonthly}</li>
-                        <li>{this.props.registrationOtherFamily}</li>
                     </ul>
                 </div>
                 <div>
