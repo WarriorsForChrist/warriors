@@ -15,7 +15,7 @@ Raleigh.defaultProps = {
     class2: "Intermediate Level - 7:30-8:30pm",
     registrationStatus: "Email us to be added to our new student waiting list",
     registrationPrice: "Registration $50 (includes 1st month & uniform)",
-    registrationMonthly: "$65/month per student",
+    registrationMonthly: "$65 per month",
     registrationOtherFamily: "$10 for each additional family member",
     infoEmail: "mailto:info.raleigh@warriors-for-christ.com?subject=Warriors Martial Arts Classes",
     calendarLink: '',
