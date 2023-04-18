@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import {Link} from 'react-router-dom'
 
 import '../styles/Locations.css'
@@ -37,14 +37,26 @@ export default class Location extends Component {
                 </div>
 
                 <div className="locationAddress">
-                    <a href={this.props.mapLink} target="blank">
+                    { this.props.mapLink && (
+                        <a href={this.props.mapLink} target="blank">
+                            <h4>{this.props.locationName}</h4>
+                            <h5>
+                                {this.props.address1}<br/>
+                                {getAddress2()}
+                                {this.props.cityStateZip}
+                            </h5>
+                        </a>
+                    )}
+                    { !this.props.mapLink && (
+                        <Fragment>
                         <h4>{this.props.locationName}</h4>
                         <h5>
                             {this.props.address1}<br/>
                             {getAddress2()}
                             {this.props.cityStateZip}
                         </h5>
-                    </a>
+                        </Fragment>
+                    )}
                 </div>
                 <h4>{this.props.classTimes}</h4>
                 {getClassListings()}
