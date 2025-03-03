@@ -3,11 +3,11 @@ import Location from './Location'
 export default class Raleigh extends Location { }
 
 Raleigh.defaultProps = {
-    locationTown: "Holly Springs",
+    locationTown: "Cary",
     headInstructor: "Joel Geniesse, Soke",
-    mapLink: "https://www.google.com/maps/place/242+S+Main+St+Suite+210,+Holly+Springs,+NC+27540/@35.6511111,-78.8339235,17z/data=!3m1!4b1!4m5!3m4!1s0x89ac8e015dbdeabb:0x9dbd5ce06f26090a!8m2!3d35.6511111!4d-78.8339235",
+    mapLink: "https://www.google.com/maps/place/Trinity+Park+Church/@35.7964209,-78.8035385,862m/data=!3m2!1e3!4b1!4m6!3m5!1s0x89acedf3ac54512d:0xc59ba1328734827e!8m2!3d35.7964166!4d-78.8009636!16s%2Fg%2F1tc_rwq9!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D",
     locationName: "Trinity Park Church",
-    address1: "823 NW Maynard Rd",
+    address1: "1823 NW Maynard Rd",
     address2: "",
     cityStateZip: "Cary, NC",
     classTimes:"Classes offered Tuesdays",

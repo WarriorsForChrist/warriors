@@ -18,3 +18,10 @@ npm start
     <li>W3 for Responsiveness</li>
     <li>Create-React-App</li>
 </ul>
+
+## To deploy a new update
+* Ensure running on Node 16.20
+* firebase logout (yes, this was necessary the last time I did this)
+* firebase login
+* npm run deploy
+
