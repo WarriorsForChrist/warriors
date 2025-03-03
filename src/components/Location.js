@@ -64,6 +64,7 @@ export default class Location extends Component {
                     <b>Dues</b>
                     <ul>
                         <li>{this.props.registrationStatus}</li>
+												<li>{this.props.registrationPrice}</li>
                         <li>{this.props.registrationMonthly}</li>
                     </ul>
                 </div>
