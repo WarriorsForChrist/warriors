@@ -9,10 +9,10 @@ Atlanta.defaultProps = {
     locationName: "Lost Mountain area of Kennesaw, GA",
     address1: "",
     cityStateZip: "",
-    classTimes:"Classes: Coming soon on Tuesdays",
-    class1: "Basic Level - 6:00-7:00pm",
+    classTimes:"Not currently accepting students",
+    class1: "",
     registrationStatus: "Email us to be added to our new student waiting list",
-    registrationMonthly: "$35 per month",
+    registrationMonthly: "",
     infoEmail: "mailto:info.kennesaw@warriors-for-christ.com?subject=Warriors Martial Arts Classes",
     calendarLink: '',
     instructor: "/kendallg"
